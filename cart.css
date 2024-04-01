@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+.free-shipping{
+    /* border: 2px solid white; */
+    background-color: rgba(0, 0, 0, 0.951);
+    color: #ff3131;
+    text-align: center;
+    background-color: white;
+    padding:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.free-shipping i{
+    font-size: 20px;
+    color:#ff3131;
+}
+.header-panel{
+    display: flex;
+    justify-content: flex-end ;
+    position: relative;
+}
+.header-panel i{
+    font-size: 24px;
+    margin-left: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.search-bar {
+    position: relative;
+    width: 150px;
+    height: 10px; 
+    border-radius: 25%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+    margin-right: 1%;
+}
+  
+  .search-bar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid white;
+    height: 100%; 
+    border-radius: 25px;
+    color: wheat;
+  }
+  .search-icon{
+/*     border: 2px solid wheat; */
+    display: flex;
+  }
+  
+
+  .search-icon:hover .search-bar {
+    display: block;
+  }
+  .cart-header{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+   /*  border: 1px solid orange; */
+    flex-direction: column;
+    background-color: white;
+  }
+  .cart-header p{
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+
+
+.carting,.se-view{
+  margin: 3% 2% 0 5%;
+/*   border: 2px solid wheat;
+ */  width: 150vh;
+}
+.countinue a{
+  color: white;
+  font-size: 16px;
+  font-family: 'Oswald' , sans-serif;
+}
+.YourCart .hr{
+  width: 150px;
+}
+.YourCart .header{
+  margin: 2% 0% 2% 0;
+  font-size: 42px;
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+.cart{
+   /* border: 2px solid white; */
+  /*  box-shadow: 0 8px 16px 0 rgb(129, 126, 126); */
+  justify-content: space-between;
+  display: flex;
+  border-radius: 25px;
+  align-items: center;
+  background-color: #36353564;
+  margin-bottom: 2%;
+}
+.cart .name{
+  color: white;
+  font-size: 18px;
+  font-family: 'Oswald' , sans-serif;
+  background-color: #36353564;
+}
+.cart .quantity{
+  color: white;
+  border: 1px solid white;
+  height: 28px;
+  width: 80px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 5%;
+  background-color: #36353564;
+}
+.cart .quantity span {
+  background-color: #36353564;
+}
+.hr2{
+  height: 2px;
+  background-color: white;
+}
+.cart .img1{
+  margin: 2% 0 2% 2%; 
+  height: 130px; 
+  width :200px;
+  border-radius: 25px;
+}
+.cart .img1 img{
+  height: 100px;
+  width: 100%;
+  height: 130px;
+  border-radius: 25px;
+}
+.cart .img2{ 
+  margin: 2% 0 2% 2%;
+  height: 130px;  
+  width: 200px;
+  border-radius: 25px;
+}
+
+.cart .img2 img{
+  width: 100%;
+  height: 130px;
+  border-radius: 25px;
+}
+
+.cart .quantity button{
+  color: black;
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 18px;
+  height: 18px;
+  margin: 5%;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #eee1ee;
+  cursor: pointer;
+}
+.cart .delete{
+  margin-right:5% ;
+}
+.cart .delete .fa{
+  color: white; font-size: 22px; background-color: #36353564;
+  cursor: pointer;
+}
+
+
+.billing{
+ /*  border: 2px solid wheat; */
+ background-color: #eee1ee;
+  border-radius: 100px;
+  margin-top: 2%;
+}
+.billing .summary{
+  background-color: #eee1ee;
+  color: #080808;
+  height: 80px;
+  border-radius: 25px 25px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.billing .summary-header{
+  background-color: #eee1ee;
+  
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.hr3{
+ border: none;
+ background-color: #080808;
+}
+.summary-details,.order-total{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eee1ee;
+}
+.summary-details .detail {
+  color: white;
+ margin: 1% 0 1% 1%;
+}
+.summary-details .subtotal, .shipping ,.Taxes,.price .amt{
+  padding-top: 2%;
+  font-family: 'Playfair Display', serif;
+  color: #080808;
+  background-color: #eee1ee;
+}
+.summary-details .price{
+  color: white;
+ margin: 1% 1% 1% 1%;
+}
+.totals{
+  color: white;
+ margin: 1% 0 1% 1%;
+ background-color: #eee1ee;
+}
+.amount{
+  margin-right: 1%;
+}
+.total, .amount{
+  color: #080808;
+  background-color: #eee1ee;
+  font-family: 'Oswald' , sans-serif;
+}
+.check-form{
+  background-color: #eee1ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.check{
+  border: 2px solid wheat;
+  height: 60px;
+  width: 80%;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Oswald' , sans-serif;
+  color: white;
+  text-align: center;
+  background-color: rgb(192, 30, 173);
+  margin: 20px 20px 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.cart-last{
+  background-color: #eee1ee;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 0 0 25px 25px ;
+}
+.cart-last p{
+  margin:1% 0 2% 0;
+}
+.cart-last-text{
+  background-color: #eee1ee;
+  font-size: 14px;  
+  font-family: 'Playfair Display', serif;
+  color: #080808;
+}
+.footer{
+  margin-top:5%;
+  background-color: #eee1ee;
+  height: 200px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.footer-content{
+  color: #080808;
+  background-color: #eee1ee;
+  font-family: 'Playfair Display', serif;
+
+}
+.cart-page{
+  display: flex;
+}
+
+.hero-product{
+  margin: 3% 2% 0 0;
+  width: 400px;
+}
+.hero-text{
+  border-radius: 25px;
+  color: white;
+  background-color: #36353564;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-productcart{
+  border-radius: 25px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #36353564;
+  margin: 20% 0 0 0;
+  }
+.hero-productcart .img{
+  width: 80%;
+  border-radius: 25px;
+  height: 335px;
+  margin: 20% 5% 5% 5%;
+}
+
+.hero-productcart .img img{
+  width: 100%;
+  border-radius: 25px;
+}
+
+
+.content-text{
+  color: white;
+  background-color: #36353564;
+  font-family: 'Playfair Display', serif;
+  font-size: 38px;
+}
+.content-text1{
+  border-radius: 25px 25px 0 0 ;
+  padding: 10% 5% 0 5%;
+  text-align: center;
+  color: white;
+  background-color: #36353564;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+.herobutton{
+  width: 80%;
+  align-items: center;
+  margin: 5% 5% 20% 5%;
+  border-radius: 25px;
+}
+.herobut{
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  font-family: 'Oswald' , sans-serif;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(226, 12, 201);
+  height: 50px;
+}
+.herobuttons{
+  width: 180px;
+  align-items: center;
+  margin: 0 2% 0 0;
+  border-radius: 25px;
+}
+.herobut-remove{
+  cursor: pointer;
+  text-align: center;
+  color: rgb(226, 12, 201);
+  font-family: 'Oswald' , sans-serif;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: white;
+  height: 50px;
+}
+
+.hidden{
+  display: none;
+}
+.se-view{
+  display: none;
+}
+.total-amount{
+  background-color: #eee1ee;font-family: 'Playfair Display' , sans-serif;
+}
+
+#herobuttons{
+  margin:8% 0 8% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:477px) {
+  .cart-page{
+    flex-direction: column;
+    align-items: center;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  #carting,#se-view{
+    width: 340px;
+  }
+  .hero-product{
+    width: auto;
+  }
+  .hero-productcart{
+    margin: 10%;
+  }
+  .hero-productcart .img{
+    height: auto;
+  }
+  .se-view{
+    display: block;
+  }
+  .billing1{
+    display: none;
+  }
+  .detail,.price{
+    background-color: #eee1ee;
+  }
+  .cart .img1{
+    
+    width: 300px;
+  }
+  .name{
+    font-size: 16px;
+    text-align: center;
+  }
+  .cart{
+    gap:10px;
+  }
+  .herobut{
+    font-size: 16px;
+  }
+  .cart .img2{
+    
+    width: 300px;
+  }
+  .img2 img{
+    height: 90px;
+  }
+  #herobuttons{
+    margin: 8%;
+  }
+}
+
+@media (max-width:799px) {
+  .cart-page{
+    flex-direction: column;
+  }
+  .carting{
+    width: 700px;
+  }
+  
+}

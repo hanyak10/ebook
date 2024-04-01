@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Welcome to your dream Cart</title>
+    <link rel="stylesheet" href="cart.css" />
+    <script src="cart.js"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <section class="cart-header">
+      <div class="free-shipping">
+        Don't miss out! This offer is valid only on this page and expires when you leave for largest digital bundel.
+      </div>
+    </section>
+
+    <section class="cart-page">
+      <section class="carting" id="carting">
+        <section class="YourCart">
+          <p class="countinue">
+            <a href="index.html">countinue shopping......</a>
+          </p>
+          <hr class="hr" />
+          <p class="header">Your cart</p>
+        </section>
+        <section class="cart">
+          <div class="img1">
+            <img
+              src="300+ landing page = 30 wordpress pro plugins & premium themes (1080 x 800 px).png"
+              alt=""
+              srcset=""
+            />
+          </div>
+
+          <div class="name">Video Bundle</div>
+          <div class="name">₹199</div>
+          <div class="herobuttons">
+            <button class="herobut" onclick="toggleButtons(0)" data-price="199">
+              Add to Cart
+            </button>
+          </div>
+          <div class="herobuttons">
+            <button
+              class="herobut-remove hidden"
+              onclick="toggleButtons(0)"
+              data-price="-199"
+            >
+              Remove
+            </button>
+          </div>
+        </section>
+        <hr class="hr2" />
+        <br />
+        <section class="cart">
+          <div class="img2">
+            <img src="landing.png" alt="" srcset="" />
+          </div>
+          <div class="name">Landing Page Bundles</div>
+          <div class="name">₹199</div>
+
+          <div class="herobuttons">
+            <button class="herobut" onclick="toggleButtons(1)" data-price="199">
+              Add to Cart
+            </button>
+          </div>
+          <div class="herobuttons">
+            <button
+              class="herobut-remove hidden"
+              onclick="toggleButtons(1)"
+              data-price="-199"
+            >
+              Remove
+            </button>
+          </div>
+        </section>
+        <hr class="hr2" />
+
+        <section class="billing1">
+          <section class="billing" id="billing">
+            <div class="summary">
+              <p class="summary-header">Order summary</p>
+              <hr class="hr3" />
+            </div>
+            <div class="summary-details">
+              <div class="detail">
+                <p class="subtotal">Subtotal</p>
+                <p class="Taxes">Taxes</p>
+              </div>
+              <div class="price">
+                <p class="amt" id="priceupdate">₹0</p>
+                <p class="amt">₹0</p>
+              </div>
+            </div>
+            <hr class="hr3" />
+            <div class="summary-details">
+              <div class="totals">
+                <p class="total">Order Total</p>
+              </div>
+              <div class="amount">
+                <p id="total-amount" class="total-amount">₹</p>
+              </div>
+            </div>
+
+            <hr class="hr3" />
+          
+            <div class="checkout">
+              <form
+                action="/payment/process/"
+                method="post"
+                id="payForm"
+                class="check-form"
+              >
+                <button class="check" id="check1" disabled>CHECK-OUT</button>
+              </form>
+            </div>
+            <div class="cart-last">
+              <p class="cart-last-text">
+                * & Taxes Calculated at Checkout
+              </p>
+            </div>
+          </section>
+        </section>
+      </section>
+      <section class="hero-product">
+        <section class="hero-productcart">
+          <div class="content">
+            <p class="content-text1">
+              Both the ultimate video editing bundle and the landing page bundle
+              are included in this offer.
+            </p>
+          </div>
+          <div class="img">
+            <img src="largest.png" alt="" srcset="" />
+          </div>
+          <div class="content">
+            <p class="content-text">Largest Digital</p>
+          </div>
+          <div class="content">
+            <p class="content-text">Bundle</p>
+          </div>
+          <div class="content">
+            <p class="content-text" id="content-text">₹349</p>
+          </div>
+          <div class="herobuttons">
+            <button class="herobut" onclick="toggleButtons(2)" data-price="349">
+              Add to Cart
+            </button>
+          </div>
+          <div class="herobuttons" id="herobuttons">
+            <button
+              class="herobut-remove hidden"
+              onclick="toggleButtons(2)"
+              data-price="-349"
+            >
+              Remove
+            </button>
+          </div>
+        </section>
+      </section>
+      <section class="se-view" id="se-view">
+        <section class="billing" id="billing">
+          <div class="summary">
+            <p class="summary-header">Order summary</p>
+            <hr class="hr3" />
+          </div>
+          <div class="summary-details">
+            <div class="detail">
+              <p class="subtotal">Subtotal</p>
+              <p class="Taxes">Taxes</p>
+            </div>
+            <div class="price">
+              <p class="amt" id="priceupdate1">₹0</p>
+              <p class="amt">₹0</p>
+            </div>
+          </div>
+          <hr class="hr3" />
+          <div class="summary-details">
+            <div class="totals">
+              <p class="total">Order Total</p>
+            </div>
+            <div class="amount">
+             <p id="total-amount1" class="total-amount">₹</p>
+            </div>
+          </div>
+
+          <hr class="hr3" />
+          <!-- Payment section -->
+          <div class="checkout">
+            <form
+              action="/payment/process/"
+              method="post"
+              id="payForm"
+              class="check-form"
+            >
+              <button class="check" id="check2" disabled>CHECK-OUT</button>
+            </form>
+          </div>
+          <div class="cart-last">
+            <p class="cart-last-text">
+              *Taxes Calculated at Checkout
+            </p>
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <section class="footer">
+      <div class="footer-content">rechify 🍁hk_10🍂</div>
+    </section>
+  </body>
+</html>

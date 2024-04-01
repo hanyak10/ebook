@@ -1,0 +1,632 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+
+body{
+    color: whitesmoke;
+}
+.yellow-header {
+    background-color: rgb(238, 255, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 25px;
+    color: black;
+}
+.blank-header{
+    text-align: center;  
+    margin-top: 10px;
+}
+.header{
+    margin-top: 10px;
+}
+span{
+    color: white;
+}
+#one{
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.one{
+    align-items: center;
+    display :flex;
+    justify-content: center;
+    font-size: 70px;
+}
+.img-icon{
+    border-radius:50%;
+}
+.img1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 90px
+}
+.img2{
+    height: 50px;
+}
+.video1{
+    margin-left: 15%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 25px;
+}
+.why{
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    display: flex;
+    font-size: 48px;
+}
+.offer{
+    background-color: rgb(238, 255, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 25px;
+    color: black;
+    margin-top: 2%;
+}
+.offer-header{
+    background-color: rgb(238, 255, 0);
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1%;
+}
+.offer-content{
+    background-color: rgb(238, 255, 0);
+    font-size: 18px;
+    color:#2c3e51;
+}
+.main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    color:  #1ad1ff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.bxs-bolt-circle{
+    background-color: rgba(239, 255, 8, 0.903);
+    border-radius: 50%;
+}
+.offer-price{
+    margin-top:7%;
+}
+.offerhover{
+    height: auto;
+    background-color: rgb(238, 255, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 25px;
+    color: black;
+}
+.offerhover-price{
+    background-color: rgb(238, 255, 0);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;  
+    transition: all 0.5s ease-in-out; 
+}
+.offerhover:hover {
+    box-shadow: 0 0 10px 10px rgba(255, 255, 0, 0.5); /* glow effect */
+}
+.offerhover-content{
+    background-color: rgb(238, 255, 0);
+    font-size: 18px;
+    color:#2c3e51;
+    font-family: 'Raleway', sans-serif;
+}
+.offerhover-description{
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color:  #1ad1ff;
+}
+.offerhover-description1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color:  #1ad1ff;
+}
+.offerhover-description-p{
+    font-size: 16px;
+    padding: 2px;
+}
+.offerhover-description-p1{
+    font-size: 16px;
+    padding: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+.offerhover-button{
+    border-radius: 25px;
+    background-color: rgb(238, 255, 0);
+    margin-top: 15px;
+    height: 50px;
+    width: 350px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;  
+    transition: all 0.5s ease-in-out;
+}
+.offerhover-button-b1{
+    border-radius: 25px;
+    background-color: rgb(238, 255, 0);
+    height: 50px;
+    width: 350px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;  
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 1%;
+}
+.offerhover-button:hover,.offerhover-button-b1:hover {
+    box-shadow: 0 0 10px 10px rgba(255, 255, 0, 0.5);
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.offerletter-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:30px;
+}
+.offerletter-text1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:30px;
+}
+.offer-text{
+    font-size: 36px;
+    font-family: 'Roboto';
+}
+.get-detail-img-div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.get-detail-img{
+    margin-top: 50px;
+    border-radius: 25px;
+    height: 500px;
+    align-items: center;
+}
+.get-detail-text,.get-detail-promo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+}
+.get-detail-text-p{
+    color:  #1ad1ff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.get-detail-promo-p{
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#product1{
+    text-align: center;
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+#product1 .pro{
+    width: 20%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin:15px 0px;
+    transition: 0.2s ease;
+    position: relative;
+}
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color:  #6c7a89;
+    font-size: 18px;
+}
+#product1 .pro .des1 h5{
+    color:  #6c7a89;
+    font-size: 20px;
+}
+#product1 .pro .des i{
+    font-size: 12px;
+    color:rgba(243,181,25)
+}
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight:500;
+    color: rgb(9, 9, 211);
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+#product2 .pro{
+    width: 20%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin:15px 0px;
+    transition: 0.2s ease;
+    position: relative;
+}
+#product2 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+#product2 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+#product2 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product2 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+.star{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#product2 .pro .des h5{
+    color:  #6c7a89;
+    font-size: 26px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.offerhover-button-b2{
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(238, 255, 0);
+    height: 30px;
+    width: 70px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 15px;  
+    transition: all 0.5s ease-in-out;
+    margin: 1%;
+}
+@keyframes changeColor {
+    0%   { color: #1ad1ff; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: yellow; }
+    100% { color: #1ad1ff; }
+}
+#myPara {
+    animation: changeColor 4s infinite;
+}
+.review{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.review-text{
+    border: 2px solid white;
+    border-radius: 25px;
+    min-height: 90px;
+    margin: 10px;
+    min-width: 800px;
+    background-color: rgb(238, 255, 0);
+}
+.review-text-header1{
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-right: 2%;
+    background-color: rgb(238, 255, 0);
+    color: black;
+}
+
+.review-text-content{
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: rgb(238, 255, 0);
+    color: black;
+}
+.endoffer,.enduse{
+    font-family: 'Kanit', sans-serif;
+}
+.enduse{
+    font-size: 18px;
+}
+
+.last-description{
+    height: 200px;
+    border: 2px solid black;
+    background-color: #088178;
+    text-align: center;
+}
+.last-description-p{
+    background-color: #088178;
+    color:  #092b4e;
+    margin-top: 90px;
+    padding-bottom: 1px;
+}
+.review-text-header {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 0;
+    margin-top: 1%;
+    margin-right: 2%;
+    background-color: rgba(0, 0, 0, 0.548);
+    height: 80px;
+    width: 100%;
+    
+}
+.offerhover-button-last{
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: rgb(238, 255, 0);
+    height: 70px;
+    width:800px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;  
+    transition: all 0.5s ease-in-out;
+   margin-left: 25%;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 0, 0.5);
+}
+.offer-text-end{
+    font-size: 36px;
+    font-family: 'Roboto';
+}
+.thanku{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   /*  box-sizing: border-box; */  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    overflow-x: hidden;
+}
+
+@media (max-width:799px) {
+    .yellow-header{
+        width: 650px;
+    }
+    .review-text{
+        min-width: 600px;
+    }
+    .video1{
+        height: 600px;
+        width: 700px;
+        margin-left: 2%;
+    }
+    .one{
+        font-size: 80px;
+        margin-left: 5%;
+        margin-right: 6%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .main{
+        text-align: center;
+        font-size: 18px;
+    }
+    .offerhover,.offer{
+        width: 600px;
+    }
+    .offerhover-description-p{
+        font-size: 20px;
+    }
+    .offerhover-description-p1{
+        font-size: 24px;
+    }
+    .offerhover-button,.offerhover-button-b1{
+        height: 70px;
+        width: 600px;
+        font-size: 28px;
+    }
+    #product1 .pro-container{
+        justify-content:center;
+    }
+    #product1 .pro{
+        margin:15px;
+    }
+    #product2 .pro-container{
+        justify-content:center;
+    }
+    #product2 .pro{
+        margin:15px;
+    }
+    .offer-text{
+        font-size: 44px;
+        text-align: center;
+    }
+    .review-text-header1{
+        font-size: 26px;
+    }
+    .review-text-content{
+        font-size: 18px;
+    }
+    .offerhover-button-last{
+        margin-left: 5%;
+        width: 700px;
+    }
+
+}
+
+
+
+
+
+@media (max-width:477px) {
+    .yellow-header{
+        font-size: 12px;
+        width: 330px;
+    }
+    .video1{
+        height: 250px;
+        width: 300px;
+        margin-left: 10%;
+        border-radius: 15%;
+    }
+    .get-detail-img{
+        height: 200px;
+    }
+    .offerhover-button-last{
+        width: 350px;
+        font-size: 17px;
+        margin-left: 5%;
+        margin-top  :1%;
+    }
+    .offerhover-button{
+        height: 50px;
+        width: 300px;
+        font-size: 14px;
+    }
+    .review-text{
+        min-width: 350px;
+        min-height: 100px;
+    }
+    .one{
+        font-size: 20px;
+        font-weight: bolder;
+        flex-direction: column;
+    }
+    .main{
+        margin-left: 5%;
+        margin-right: 2%;
+        font-size: 12px;
+    }
+    .why{
+        margin-left: 10%;
+        flex-direction: column;
+    }
+    .offer,.offerhover{
+        width:300px;
+    }
+    .offer-content{
+        font-size: 14px;
+    }
+    .offer-header{
+        font-size: 18px;
+    }
+    .offerhover-price{
+        font-size: 28px;
+    }
+    .offerhover-content{
+        font-size: 16px;
+    }
+    .offerhover-description-p{
+        font-size: 12px;
+    }
+    .offer-text{
+        font-size: 24px;
+    }
+    .get-detail-text-p{
+        font-size: 12px;
+    }
+    .get-detail-promo-p{
+        font-size: 33px;
+        text-align: center;
+    }
+    #product1 .pro-container,#product2 .pro-container{
+        justify-content:center;
+    }
+    #product1 .pro,#product2 .pro{
+        margin:15px;
+    }
+    .review-text-content{
+        font-size: 12px;
+    }
+    .review-text-header1{
+        font-size: 18px;
+    }
+    .offer-text-end{
+        font-size: 28px;
+        text-align: center;
+    }
+}
+

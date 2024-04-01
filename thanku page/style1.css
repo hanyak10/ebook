@@ -1,0 +1,17 @@
+
+
+
+.conclusion-text{
+    margin: 10px 0 0 0 ;
+    text-align: center;
+    font-size: 23px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+img{
+    width: 140px;
+}
